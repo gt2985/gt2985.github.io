@@ -1,8 +1,4 @@
----
-layout: post
-title: Powermock and  testing private methods
-published: true
----
+
 
 When I first came across/heard about powermock, I was astonished, that why would i ever need something like this where I would need to mock or test a private method of a class. Sometime ago, I would just write off, such a case as a bad design and would look for ways to refactor the class so that I could easily write junits for the funcationality in it. 
 
