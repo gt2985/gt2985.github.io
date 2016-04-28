@@ -1,7 +1,4 @@
----
-layout: post
-published: true
----
+
 
 Valves provide a means to insert logic and specific handling, into the request processing pipeline. When we need to add some funcationality or check before the request reaches the application in that case, we can do that using a valve.
 
