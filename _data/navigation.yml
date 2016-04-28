@@ -5,7 +5,7 @@ main:
     url: https://gt2985.github.io/techrants/year-archive/
     
   - title: "Archive"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    url: https://gt2985.github.io/techrants/archive/
     
-  - title: "Quick-Start Guide"
-  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "About"
+  url: https://gt2985.github.io/techrants/about/
