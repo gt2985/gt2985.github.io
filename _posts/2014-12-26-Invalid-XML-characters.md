@@ -1,9 +1,3 @@
----
-layout: post
-title: XML  Handling invalid  characters
-published: true
----
-
 For a requirement, had to recently make sure that the input data that comes in as a json body needs to be converted into xml to make subequent calls to other services.
 It landed up in a weird requirement, where data that could be valid for JSON, could prove to be invalid for an xml. 
 
