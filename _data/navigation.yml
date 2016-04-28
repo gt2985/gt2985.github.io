@@ -2,10 +2,10 @@
 main:
 
   - title: "Blog"
-    url: https://gt2985.github.io/techrants/year-archive/
+    url: https://gt2985.github.io/blog/
     
   - title: "Archive"
-    url: https://gt2985.github.io/techrants/archive/
+    url: https://gt2985.github.io/archive/
     
   - title: "About"
-    url: https://gt2985.github.io/techrants/about/
+    url: https://gt2985.github.io/about/
