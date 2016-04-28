@@ -1,9 +1,3 @@
----
-layout: post
-title: Prevent XEE attacks for REST API
-published: true
----
-
 Recently while testing my REST API for invalid XML data, I found an XEE susceptibility. 
 
 XEE attacks are possible as we send xml payloads which get parsed by the parsers at runtime. Major XEE attacks can be clasified as 
