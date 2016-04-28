@@ -207,7 +207,6 @@ compress_html:
     envs: development
 
 defaults:
-  _posts
   - scope:
       path: ""
       type: posts
