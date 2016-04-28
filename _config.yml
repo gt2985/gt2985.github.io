@@ -6,21 +6,21 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-N"Z
 title                    : "Tech Rants"
 title_separator          : " "
 name                     : "Gaurav Thakur"
 description              : "A java developer archive of tech rants."
 url                      : "https://gt2985.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "facebook", "google-plus", custom"
+  provider               : "disqus"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : gt.github
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
@@ -50,9 +50,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google"
   google:
-    tracking_id          :
+    tracking_id          :UA-57784094-1
 
 # Google AdSense
 google_ad_client         :
@@ -61,10 +61,10 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Gaurav Thakur"
   avatar           : "bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Somewhere"
+  location         : "Auckland, New Zealand"
   email            :
   uri              :
   bitbucket        :
@@ -95,6 +95,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -206,7 +207,7 @@ compress_html:
     envs: development
 
 defaults:
-  # _posts
+  _posts
   - scope:
       path: ""
       type: posts
