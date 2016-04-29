@@ -30,6 +30,8 @@ en-US:
   <<: *DEFAULT_EN
 en-UK:
   <<: *DEFAULT_EN
+en-NZ:
+ <<:*DEFAULT_EN
 
 # Another locale
 # --------------
