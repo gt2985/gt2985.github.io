@@ -21,12 +21,6 @@ comments:
   provider               : "disqus"
   disqus:
     shortname            : gt.github
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -63,9 +57,9 @@ google_ad_slot           :
 author:
   name             : "Gaurav Thakur"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Java Developer, Technical Enthusiast."
   location         : "Auckland, New Zealand"
-  email            :
+  email            : gaurav2985@gmail.com
   uri              :
   bitbucket        :
   codepen          :
@@ -73,7 +67,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : gt2985
   google_plus      :
   keybase          :
   instagram        :
