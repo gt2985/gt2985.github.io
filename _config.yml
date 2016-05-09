@@ -11,7 +11,7 @@ title                    : "Tech Rants"
 title_separator          : " "
 name                     : "Gaurav Thakur"
 description              : "A java developer archive of tech rants."
-url                      : "https://gt2985.github.io"
+url                      : "http://gt2985.github.io"
 baseurl                  : 
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
