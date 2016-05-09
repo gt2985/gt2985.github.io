@@ -18,9 +18,9 @@ teaser                   : # filename of teaser fallback teaser image placed in 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               :"disqus"
+  provider               : "disqus"
   disqus:
-    shortname            :"gt.github"
+    shortname            : "gt.github"
 # SEO Related
 google_site_verification :
 bing_site_verification   :
