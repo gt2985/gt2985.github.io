@@ -44,9 +44,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google"
+  provider               : "google-universal"
   google:
-    tracking_id          :UA-57784094-1
+    tracking_id          :"UA-57784094-1"
 
 # Google AdSense
 google_ad_client         :
