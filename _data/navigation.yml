@@ -1,11 +1,5 @@
 # main links links
 main:
-
-  - title: "Blog"
-    url: https://gt2985.github.io/blog/
-    
-  - title: "Archive"
-    url: https://gt2985.github.io/archive/
     
   - title: "About"
     url: https://gt2985.github.io/about/
