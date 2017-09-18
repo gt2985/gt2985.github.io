@@ -19,8 +19,8 @@ repository               :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
-comments: true
-  provider               : "disqus"
+comments: 
+  provider               : #"disqus"
   disqus:
     shortname            : "gt.github"
   discourse:
@@ -244,6 +244,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: #true
       share: true
       related: true
