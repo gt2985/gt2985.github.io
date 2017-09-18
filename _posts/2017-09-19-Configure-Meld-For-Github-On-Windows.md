@@ -2,7 +2,6 @@
 published: true
 ---
 
-## Github Meld Windows
 I recently made the move to windows machine being my primary development enviornment. The first biggest difference, that you realize is regarding the toolset that is available on the platform and second is the toolset available to get/install the tools that one needs. I missed yum/dnf/apt-get like how I could never imagine. 
 
 I know about the in built version of linux that I can use on top of windows now. For some reason, I am unable to update my windows. 
