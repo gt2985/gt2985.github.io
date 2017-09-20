@@ -1,5 +1,4 @@
 ---
-title: "Invalid XML Data Characters, Json "
 categories:
   - Technology
   - Java
