@@ -1,3 +1,15 @@
+---
+title: "Apache Tomcat Valves, Custom Valve"
+categories:
+  - Technology
+  - Java
+tags:
+  - Tomcat
+  - Apache
+  - Java
+  - Custom Valve
+  - Tomcat Valve
+---
 Valves provide a means to insert logic and specific handling, into the request processing pipeline. When we need to add some funcationality or check before the request reaches the application in that case, we can do that using a valve.
 
 Valves work at the server level, the same as filters do at the application level. Although it is possible to tie a valve implementation to a context root to specify the application for which it will be inserted in the request processing pipeline.
