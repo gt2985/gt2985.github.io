@@ -1,7 +1,8 @@
 ---
 title: "PowerMock, Testing Private Methods"
 categories:
-  - Edge Case
+  - Technology
+  - Java
 tags:
   - 8BIT
   - alignment
