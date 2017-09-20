@@ -1,13 +1,14 @@
 ---
+title: "Input Sanitization : Invalid XML Data, Validation"
 categories:
   - Technology
   - Java
 tags:
   - XML
-  - Json
-  - XML Invalid characters
-  - XMl Validation
-published:true
+  - Input Sanitization
+  - Java
+  - Regex
+  - input xml data validation
 ---
 
 Recently, For a requirement,I had to make sure that the input data that comes in as a json body needs to be converted into xml to make subequent calls to other services.
