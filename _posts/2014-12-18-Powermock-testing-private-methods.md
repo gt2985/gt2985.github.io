@@ -1,14 +1,10 @@
 ---
-title: "Powermock: Unit Testing, Mock Private Methods"
 categories:
-  -Technology
-  -Java
+  - Edge Case
 tags:
-  -Powermock
-  -Mocks
-  -Junit
-  -Unit Tests
-published:true
+  - edge case
+  - layout
+  - title
 ---
 
 When I first came across/heard about powermock, I was astonished, that why would i ever need something like this where I would need to mock or test a private method of a class. Sometime ago, I would just write off, such a case as a bad design and would look for ways to refactor the class so that I could easily write junits for the funcationality in it. 
