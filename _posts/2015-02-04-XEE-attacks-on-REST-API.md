@@ -1,3 +1,14 @@
+---
+title: "Secure APIs against XEE Attacks(XML Injection Attacks)"
+categories:
+  - Technology
+  - Java
+tags:
+  - Security
+  - Input Sanitization
+  - XML Expansion
+  - XEE Attack
+---
 Recently while testing my REST API for invalid XML data, I found an XEE susceptibility. 
 
 XEE attacks are possible as we send xml payloads which get parsed by the parsers at runtime. Major XEE attacks can be clasified as 
