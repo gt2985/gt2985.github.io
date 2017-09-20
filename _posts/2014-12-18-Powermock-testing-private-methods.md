@@ -1,5 +1,5 @@
 ---
-title: "Edge Case: Many Tags"
+title: "PowerMock, Testing Private Methods"
 categories:
   - Edge Case
 tags:
