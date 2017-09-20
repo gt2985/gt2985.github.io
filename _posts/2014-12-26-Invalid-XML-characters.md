@@ -1,5 +1,5 @@
 ---
-title: "Input Sanitization : Invalid XML Data, Validation"
+title: "Invalid XML Characters"
 categories:
   - Technology
   - Java
