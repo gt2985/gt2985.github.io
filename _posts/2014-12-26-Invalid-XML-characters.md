@@ -1,4 +1,17 @@
-For a requirement, had to recently make sure that the input data that comes in as a json body needs to be converted into xml to make subequent calls to other services.
+---
+title: "Invalid XML Data Characters, Json "
+categories:
+  - Technology
+  - Java
+tags:
+  - XML
+  - Json
+  - XML Invalid characters
+  - XMl Validation
+published:true
+---
+
+Recently, For a requirement,I had to make sure that the input data that comes in as a json body needs to be converted into xml to make subequent calls to other services.
 It landed up in a weird requirement, where data that could be valid for JSON, could prove to be invalid for an xml. 
 
 So needed to make sure to remove the invalid xml characters coming into the input request.
