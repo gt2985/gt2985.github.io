@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "default" # "air", "contrast", "dark", "dirt", "mint"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Gaurav Thakur, Rants about technology and other things"
+title                    : "Gaurav Thakur, rants about technology and other things."
 title_separator          : " "
 name                     : "Gaurav Thakur"
 description              : "A java developer archive of tech rants."
