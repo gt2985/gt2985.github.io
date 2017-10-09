@@ -1,7 +1,4 @@
 ---
-published: false
----
----
 title: "Salesforce Org-2-Org Migrations"
 categories:
   - Technology
