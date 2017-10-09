@@ -12,7 +12,7 @@ tags:
 ## Salesforce Org Migrations
 Recently I have been working on a salesforce org migration. Although I`m migrating from one salesforce instance to another salesforce another. From the sounds of it, it apears to be a simple activity and it certainly is so to an extent. A few things that you will need to think about regarding the migration
 
-Choice of Tools
+**Choice of Tools**
 
 There are many tools and related documentation easily available, for e.g. salesforce dataloader, dataloader.io, jitterbit dataloader, etc. I ended up using jitterbit data loader for the inclusive ability of carrying out some simple data transformations within the tool itself. It allows one to save the source and target destinations alongwith the credentials. It also enables one to organise the exports and imports. One huge advantage that I found is that everything is saved on the cloud with your jitterbit account, which makes it easy for you to access the details anywhere. Plus is also enaables you to schedule exports or imports at anytime. I`m sure there are other tools which enable the same functionality as well. Although this just felt like the best option to me.
 
@@ -42,7 +42,7 @@ D. For the body field mapping edit the code to something like below,
 <pre><code>
 	<trans>
 		$fn = root$transaction.response$body$queryResponse$result$records.Attachment$Name$;
-		WriteFile("			<TAG>Targets/Files/AttachmentFile</TAG>",Base64Decode(root$transaction.response$body$queryResponse$result$records.Attachment$Body$),$fn);
+		WriteFile("<TAG>Targets/Files/AttachmentFile</TAG>",Base64Decode(root$transaction.response$body$queryResponse$result$records.Attachment$Body$),$fn);
 		FlushFile("<TAG>Targets/Files/AttachmentFile</TAG>");
 	</trans>
   </code></pre>
