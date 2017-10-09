@@ -38,12 +38,12 @@ To make this import easier we can use a little script and ask jitterbit to expor
 3. Create a new target file, name it as AttachmentFile
 4. For the body field mapping edit the code to something like below, 
 <pre><code>
-	<trans>
-		$fn = root$transaction.response$body$queryResponse$result$records.Attachment$Name$;
-		WriteFile("<TAG>Targets/Files/AttachmentFile</TAG>",Base64Decode(root$transaction.response$body$queryResponse$result$records.Attachment$Body$),$fn);
-    FlushFile("<TAG>Targets/Files/AttachmentFile</TAG>");
-	</trans>
-  </code></pre>
+<trans>
+$fn = root$transaction.response$body$queryResponse$result$records.Attachment$Name$;
+WriteFile("<TAG>Targets/Files/AttachmentFile</TAG>",Base64Decode(root$transaction.response$body$queryResponse$result$records.Attachment$Body$),$fn);
+FlushFile("<TAG>Targets/Files/AttachmentFile</TAG>");
+</trans>
+</code></pre>
 Now when you run the query the attachments will go into the folder.
 
 In a few weeks, I`ll try and create some proxy object which can possibly be reused to use the approach detailed above.
