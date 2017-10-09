@@ -35,15 +35,15 @@ If you have already tried exporting or importing attachments, you would know tha
 Although, to import attachments, we need to provide the csv file with all field details and path to the actual attachmet file.
 To make this import easier we can use a little script and ask jitterbit to export attachment records, in a way where it is much easier for us to import it into the new salesforce org.
 
-A. Create a new query
-B. Specify the query
-C. Create a new target file, name it as AttachmentFile
-D. For the body field mapping edit the code to something like below, 
+1. Create a new query
+2. Specify the query
+3. Create a new target file, name it as AttachmentFile
+4. For the body field mapping edit the code to something like below, 
 <pre><code>
 	<trans>
 		$fn = root$transaction.response$body$queryResponse$result$records.Attachment$Name$;
 		WriteFile("<TAG>Targets/Files/AttachmentFile</TAG>",Base64Decode(root$transaction.response$body$queryResponse$result$records.Attachment$Body$),$fn);
-		FlushFile("<TAG>Targets/Files/AttachmentFile</TAG>");
+    FlushFile("<TAG>Targets/Files/AttachmentFile</TAG>");
 	</trans>
   </code></pre>
 Now when you run the query the attachments will go into the folder.
